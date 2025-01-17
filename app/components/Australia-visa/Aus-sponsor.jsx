@@ -24,7 +24,7 @@ const Aussponsor = () => {
             <div className="flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0">
                 <div className="flex justify-center m-6 flex-shrink-0 mx-auto lg:mx-0">
                     <img
-                        src="/assets/Aussponsor.png"
+                        src="/assets/AusSponsor.png"
                         alt="Australia Sponsorship Visa"
                         width={500} height={300}
                         className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-full lg:h-70 object-contain shadow-lg rounded-lg"
