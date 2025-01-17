@@ -1,5 +1,6 @@
 import React from 'react'
-import Image from 'next/image';
+// import Image from 'next/image';
+
 
 const Ausdependent = () => {
   return (
@@ -21,37 +22,35 @@ const Ausdependent = () => {
       </p>
 
       <p className="mb-6">
-        If you&apos;re considering applying for an <b>Australian Dependent Visa</b>, you&apos;ve come to the right place. Here&apos;s everything you need to know about the process, eligibility criteria, and how <b>VJC Overseas</b> can assist you in making the journey smoother.
+        If you're considering applying for an <b>Australian Dependent Visa</b>, you’ve come to the right place. Here’s everything you need to know about the process, eligibility criteria, and how <b>VJC Overseas</b> can assist you in making the journey smoother.
       </p>
 
       <div className="flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0">
         <div className="flex justify-center m-6 flex-shrink-0 mx-auto lg:mx-0">
-          <Image
+          <img
             src="/assets/Ausdependent.png"
-            alt="Australia Dependent Visa"
+            alt="Image description" 
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-full lg:h-70 object-contain shadow-lg rounded-lg"
-            width={500} // Provide width and height to optimize the image
-            height={350}
           />
         </div>
       </div>
 
       <h4 className="mb-6"><b>What is the Australia Dependent Visa?</b></h4>
 
-      <p className="mb-6">The <b>Australia Dependent Visa</b> allows the immediate family members of primary visa holders to live, work, and study in Australia for the duration of the primary visa holder&apos;s stay. Family members who may be eligible for this visa include spouses, children, parents, and in some cases, other relatives depending on the specific visa subclass.</p>
+      <p className="mb-6">The <b>Australia Dependent Visa</b> allows the immediate family members of primary visa holders to live, work, and study in Australia for the duration of the primary visa holder’s stay. Family members who may be eligible for this visa include spouses, children, parents, and in some cases, other relatives depending on the specific visa subclass.</p>
 
       <h4 className="mb-6"><b>Key Features of the Dependent Visa</b></h4>
 
       <ul className='ml-6 mb-6'>
         <li><b>• Stay with Primary Visa Holder: </b>Dependent visa holders are allowed to live, study, and work in Australia for the same duration as the primary visa holder.</li>
-        <li><b>• Work Rights: </b>In most cases, dependents can work full-time in Australia, offering them financial independence and the ability to contribute to their household&apos;s living expenses.</li>
-        <li><b>• Access to Healthcare: </b>Dependent visa holders are generally eligible for Australia&apos;s public health system (Medicare), depending on the visa subclass and the primary visa holder&apos;s status.</li>
-        <li><b>• Study Opportunities: </b>Family members, particularly children, can also access Australia&apos;s quality education system, from primary school to university-level courses.</li>
+        <li><b>• Work Rights: </b>In most cases, dependents can work full-time in Australia, offering them financial independence and the ability to contribute to their household’s living expenses.</li>
+        <li><b>• Access to Healthcare: </b>Dependent visa holders are generally eligible for Australia’s public health system (Medicare), depending on the visa subclass and the primary visa holder’s status.</li>
+        <li><b>• Study Opportunities: </b>Family members, particularly children, can also access Australia’s quality education system, from primary school to university-level courses.</li>
       </ul>
 
       <h4 className="mb-6">Types of Dependent Visas</h4>
 
-      <p className="mb-6">Depending on the primary visa holder&apos;s status, there are different types of dependent visas available. These include:</p>
+      <p className="mb-6">Depending on the primary visa holder’s status, there are different types of dependent visas available. These include:</p>
 
       <ol className='ml-6 mb-6'>
         <li><b>1. Partner Visa (Subclass 820/801): </b>If you are the spouse, de facto partner, or fiancé of an Australian citizen, <b>Permanent Resident</b>, or eligible New Zealand citizen, this visa allows you to live in Australia.</li>
@@ -79,12 +78,12 @@ const Ausdependent = () => {
         <li><b>1. Gather Documents: </b>Collect all required documents, including proof of relationship, health examinations, police certificates, and financial evidence.</li>
         <li><b>2. Submit Application: </b>Submit your visa application online via the Australian Department of Home Affairs website or through a registered migration agent.</li>
         <li><b>3. Wait for Decision: </b>The processing time varies depending on the visa subclass, but it generally takes several months to receive a decision.</li>
-        <li><b>4. Visa Grant: </b>If your application is successful, you&apos;ll receive your dependent visa, allowing you to join your family member in Australia.</li>
+        <li><b>4. Visa Grant: </b>If your application is successful, you’ll receive your dependent visa, allowing you to join your family member in Australia.</li>
       </ol>
 
       <h4 className="mb-6"><b>Why Choose VJC Overseas?</b></h4>
 
-      <p className="mb-6">Navigating the complexities of the Australian visa system can be overwhelming, but <b>VJC Overseas</b> is here to simplify the process. Our team of expert migration agents and consultants has a deep understanding of Australian immigration policies and can help you with every step of the application process, ensuring your family&apos;s smooth transition to Australia.</p>
+      <p className="mb-6">Navigating the complexities of the Australian visa system can be overwhelming, but <b>VJC Overseas</b> is here to simplify the process. Our team of expert migration agents and consultants has a deep understanding of Australian immigration policies and can help you with every step of the application process, ensuring your family’s smooth transition to Australia.</p>
 
       <h4 className="mb-6"><b>How VJC Overseas Can Help:</b></h4>
 
@@ -92,16 +91,16 @@ const Ausdependent = () => {
         <li><b>• Personalized Consultation: </b>We offer one-on-one consultations to assess your specific situation and provide tailored advice.</li>
         <li><b>• Comprehensive Visa Services: </b>From gathering documents to submitting your application, we handle every detail, reducing the chances of delays or errors.</li>
         <li><b>• Expert Guidance: </b>With years of experience and up-to-date knowledge of immigration laws, we ensure your application complies with all the requirements.</li>
-        <li><b>• Ongoing Support: </b>Our support doesn&apos;t end once you submit your application. We are here to assist you throughout the processing period and provide updates on your visa status.</li>
+        <li><b>• Ongoing Support: </b>Our support doesn’t end once you submit your application. We are here to assist you throughout the processing period and provide updates on your visa status.</li>
       </ul>
 
       <h4 className="mb-6"><b>Conclusion</b></h4>
 
-      <p className="mb-6">The <b>Australia Dependent Visa</b> is a wonderful opportunity for families to reunite and live together in one of the most desirable countries in the world. Whether you&apos;re planning to join a spouse, support a child, or be with a parent, this visa can make it all possible.</p>
+      <p className="mb-6">The <b>Australia Dependent Visa</b> is a wonderful opportunity for families to reunite and live together in one of the most desirable countries in the world. Whether you’re planning to join a spouse, support a child, or be with a parent, this visa can make it all possible.</p>
 
-      <p className="mb-6">If you&apos;re ready to take the next step, contact <b>VJC Overseas</b> today. We&apos;re committed to helping you navigate the Australian immigration process and ensuring the success of your visa application.</p>
+      <p className="mb-6">If you're ready to take the next step, contact <b>VJC Overseas</b> today. We’re committed to helping you navigate the Australian immigration process and ensuring the success of your visa application.</p>
 
-      <h4 className="mb-6"><b>Take the first step towards a new chapter in Australia. Your family&apos;s future starts here!</b></h4>
+      <h4 className="mb-6"><b>Take the first step towards a new chapter in Australia. Your family’s future starts here!</b></h4>
     </div>
   )
 }

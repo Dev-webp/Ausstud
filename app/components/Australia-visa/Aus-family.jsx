@@ -1,5 +1,6 @@
 import React from 'react';
-import Image from 'next/image'; // Uncommented this import
+// import Image from 'next/image';
+
 
 const Ausfamily = () => {
   return (
@@ -17,21 +18,20 @@ const Ausfamily = () => {
       </h3>
 
       <p className="mb-6">
-        Australia is a dream destination for many families across the globe, offering world-class healthcare, education, and a high standard of living. If you&apos;re looking to bring your family members to Australia, the <strong>Australia Family</strong> Visa is the perfect pathway for you. Whether you wish to reunite with your spouse, children, parents, or other close relatives, Australia&rsquo;s family reunion visa programs offer various options to suit different circumstances.
+        Australia is a dream destination for many families across the globe, offering world-class healthcare, education, and a high standard of living. If you're looking to bring your family members to Australia, the <strong>Australia Family</strong> Visa is the perfect pathway for you. Whether you wish to reunite with your spouse, children, parents, or other close relatives, Australia’s family reunion visa programs offer various options to suit different circumstances.
       </p>
 
       <p className="mb-6">
-        At <strong>VJC Overseas</strong>, we understand the emotional and practical challenges of being separated from your loved ones. Our expert migration consultants are here to guide you through the process, ensuring that your family reunification journey is as smooth and efficient as possible. Let&rsquo;s take a closer look at the different types of Australia Family Visas available and how they can help bring your family together.
+        At <strong>VJC Overseas</strong>, we understand the emotional and practical challenges of being separated from your loved ones. Our expert migration consultants are here to guide you through the process, ensuring that your family reunification journey is as smooth and efficient as possible. Let’s take a closer look at the different types of Australia Family Visas available and how they can help bring your family together.
       </p>
 
       <div className="flex flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0">
         <div className="flex justify-center m-6 flex-shrink-0 mx-auto lg:mx-0">
-          <Image
+          <img
             src="/assets/Ausfamily.png"
             alt="Family Visa Image"
+            
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-full lg:h-70 object-contain shadow-lg rounded-lg"
-            width={500} // Added width and height to optimize the image
-            height={350}
           />
         </div>
       </div>
@@ -42,7 +42,7 @@ const Ausfamily = () => {
       <p className="mb-6">For married or de facto couples, the Partner Visa allows one partner to live in Australia while waiting for the permanent visa. It includes two stages:</p>
       <ul className="ml-8 list-disc mb-6">
         <li><strong>Temporary Visa (Subclass 820):</strong> Granted initially, allowing you to stay in Australia while your application is processed.</li>
-        <li><strong>Permanent Visa (Subclass 801):</strong> This visa is granted once you&rsquo;ve proven the genuineness of your relationship over time.</li>
+        <li><strong>Permanent Visa (Subclass 801):</strong> This visa is granted once you’ve proven the genuineness of your relationship over time.</li>
       </ul>
       <p className="mb-6">Whether you are in a married or de facto relationship, the Partner Visa provides a pathway to permanent residency for your spouse or partner.</p>
 
@@ -98,7 +98,7 @@ const Ausfamily = () => {
 
       <hr style={{ borderColor: 'black' }} className="mb-6" />
 
-      <p>This unique content is tailored for VJC Overseas to attract and inform potential clients seeking to reunite with their family in Australia. It emphasizes the company&rsquo;s expertise, providing a clear and comprehensive overview of available visa options.</p>
+      <p>This unique content is tailored for VJC Overseas to attract and inform potential clients seeking to reunite with their family in Australia. It emphasizes the company’s expertise, providing a clear and comprehensive overview of available visa options.</p>
     </div>
   );
 };

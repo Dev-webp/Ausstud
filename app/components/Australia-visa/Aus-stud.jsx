@@ -1,5 +1,5 @@
 import React from "react";
-import Image from 'next/image';
+// import Image from 'next/image';
 
 
 const Ausstud = () => {
@@ -17,11 +17,11 @@ const Ausstud = () => {
         Study in Australia with VJC Overseas: Affordable Education at Top-Ranked Universities
       </h3>
       <p className="m-2">
-        Australia has long been a popular destination for international students, offering world-class education, diverse cultural experiences, and a safe environment to study and live. Whether you&apos;re planning to pursue undergraduate, postgraduate, or vocational courses, Australia provides an array of high-quality academic opportunities at competitive tuition rates. At VJC Overseas, we help you navigate the process of obtaining an Australian Study Visa and finding universities with affordable fees and strong global rankings.
+        Australia has long been a popular destination for international students, offering world-class education, diverse cultural experiences, and a safe environment to study and live. Whether you're planning to pursue undergraduate, postgraduate, or vocational courses, Australia provides an array of high-quality academic opportunities at competitive tuition rates. At VJC Overseas, we help you navigate the process of obtaining an Australian Study Visa and finding universities with affordable fees and strong global rankings.
       </p>
       <div className="flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0">
         <div className="flex justify-center m-6 flex-shrink-0 mx-auto lg:mx-0">
-          <Image
+          <img
             src="/assets/Ausstud.png"
             alt="Image description"
            

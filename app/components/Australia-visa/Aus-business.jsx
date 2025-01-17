@@ -1,5 +1,6 @@
 import React from 'react';
-import Image from 'next/image'; // Importing Image from next/image
+// import Image from 'next/image';
+
 
 const Ausbusiness = () => {
   return (
@@ -17,21 +18,19 @@ const Ausbusiness = () => {
       </h3>
 
       <p className="mb-6">
-        Australia is known for its robust economy, diverse business opportunities, and attractive quality of life. For entrepreneurs, investors, and business professionals, the Australia Business Visa is the perfect way to tap into the country&apos;s dynamic market. Whether you&apos;re looking to expand your business or start a new venture, the Australia Business Visa offers a pathway for business people to live, work, and grow their enterprises in one of the world&apos;s most prosperous nations.
+        Australia is known for its robust economy, diverse business opportunities, and attractive quality of life. For entrepreneurs, investors, and business professionals, the Australia Business Visa is the perfect way to tap into the country’s dynamic market. Whether you're looking to expand your business or start a new venture, the Australia Business Visa offers a pathway for business people to live, work, and grow their enterprises in one of the world’s most prosperous nations.
       </p>
 
       <p className="mb-6">
-        At <b>VJC Overseas</b>, we specialize in helping clients navigate the complexities of obtaining the right visa to build and scale their businesses in Australia. In this guide, we will provide key insights into Australia&apos;s Business Visa categories, eligibility criteria, and the application process to ensure that your business aspirations are on the right track.
+        At <b>VJC Overseas</b>, we specialize in helping clients navigate the complexities of obtaining the right visa to build and scale their businesses in Australia. In this guide, we will provide key insights into Australia’s Business Visa categories, eligibility criteria, and the application process to ensure that your business aspirations are on the right track.
       </p>
 
       <div className="flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0">
-        <div className="flex justify-center m-6 flex-shrink-0 mx-auto lg:mx-0">
-          {/* Replacing <img> with <Image> component */}
-          <Image
-            src="/assets/Ausbusiness.png"  // Path to your image
-            alt="Australia Business Visa"  // Alt text for the image
-            width={500}  // Replace with the actual width you want
-            height={300}  // Replace with the actual height you want
+        <div className="flex justify-center m-6 flex-shrink-0 mx-auto lg:mx-0 ">
+          <img
+            src="/assets/Ausbusiness.png"
+            alt="Australia Business Visa"
+            
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-full lg:h-70 object-contain shadow-lg rounded-lg"
           />
         </div>
@@ -39,7 +38,7 @@ const Ausbusiness = () => {
 
       <h4 className="mb-6"><b>What is the Australia Business Visa?</b></h4>
 
-      <p className="mb-6">The <b>Australia Business</b> Visa allows entrepreneurs, investors, and business owners to enter and stay in Australia to manage, establish, or invest in a business. It provides a range of pathways for individuals who want to capitalize on Australia&apos;s thriving economy, whether by starting a new business, buying into an existing one, or investing in a state or territory&apos;s growth.</p>
+      <p className="mb-6">The <b>Australia Business</b> Visa allows entrepreneurs, investors, and business owners to enter and stay in Australia to manage, establish, or invest in a business. It provides a range of pathways for individuals who want to capitalize on Australia’s thriving economy, whether by starting a new business, buying into an existing one, or investing in a state or territory’s growth.</p>
 
       <p className="mb-6">Australia offers several types of business visas, each catering to different needs and goals. These visas are designed to encourage innovation, investment, and business development across the country.</p>
 
@@ -58,16 +57,16 @@ const Ausbusiness = () => {
 
         <p className="mb-6"><b>3. Temporary Skill Shortage Visa (subclass 482)</b> This visa is ideal for individuals who need to fill skill shortages in Australian businesses. It is a temporary work visa, but it allows employers to hire skilled workers from overseas for roles that are not easily filled locally. This visa can be a stepping stone for business owners looking to employ skilled workers in their Australian operations.</p>
 
-        <p className="mb-6"><b>4. Global Talent Visa (subclass 858)</b> The Global Talent Visa is designed for high-calibre individuals with exceptional skills in specific sectors such as technology, engineering, finance, and health. Entrepreneurs and business innovators with groundbreaking ideas or expertise in emerging industries can apply for this visa, with the potential to contribute significantly to Australia&apos;s economic growth.</p>
+        <p className="mb-6"><b>4. Global Talent Visa (subclass 858)</b> The Global Talent Visa is designed for high-calibre individuals with exceptional skills in specific sectors such as technology, engineering, finance, and health. Entrepreneurs and business innovators with groundbreaking ideas or expertise in emerging industries can apply for this visa, with the potential to contribute significantly to Australia’s economic growth.</p>
       </div>
 
       <div className="mb-6">
         <h4><b>Key Benefits of the Australia Business Visa</b></h4>
 
         <ul className='ml-8 mb-6'>
-          <li><b>• Access to a Thriving Economy:</b> With one of the world&apos;s highest GDP growth rates and a stable business environment, Australia is an excellent location for business development and investment.</li>
+          <li><b>• Access to a Thriving Economy:</b> With one of the world’s highest GDP growth rates and a stable business environment, Australia is an excellent location for business development and investment.</li>
           <li><b>• Pathway to Permanent Residency:</b> Many business visas, such as the Subclass 188 and Subclass 132, offer pathways to permanent residency, allowing you and your family to enjoy the long-term benefits of living and working in Australia.</li>
-          <li><b>• Support for Entrepreneurs:</b> Australia&apos;s government offers various incentives and support programs for entrepreneurs, including grants, mentoring, and financial assistance.</li>
+          <li><b>• Support for Entrepreneurs:</b> Australia’s government offers various incentives and support programs for entrepreneurs, including grants, mentoring, and financial assistance.</li>
           <li><b>• Live in a World-Class Country:</b> Beyond business, Australia offers a high quality of life, excellent healthcare, education, and a vibrant cultural scene.</li>
           <li><b>• Access to International Markets:</b> As a member of multiple free trade agreements, Australia provides easy access to global markets, including Asia, the United States, and Europe.</li>
         </ul>
@@ -99,13 +98,13 @@ const Ausbusiness = () => {
 
         <p className="mb-6">At <b>VJC Overseas</b>, we understand that the process of obtaining an Australian Business Visa can be overwhelming. Our team of experts is here to guide you every step of the way, from selecting the right visa subclass to preparing your application and ensuring that all requirements are met.</p>
 
-        <p className="mb-6">With years of experience in immigration and visa services, we take a personalized approach to every client&apos;s needs. Our in-depth knowledge of Australian immigration laws, combined with our commitment to providing tailored solutions, makes us your trusted partner for securing an Australian Business Visa.</p>
+        <p className="mb-6">With years of experience in immigration and visa services, we take a personalized approach to every client’s needs. Our in-depth knowledge of Australian immigration laws, combined with our commitment to providing tailored solutions, makes us your trusted partner for securing an Australian Business Visa.</p>
 
         <hr style={{ borderColor: 'black' }} className="mb-6" />
 
         <h5 className="mb-6"><b>Contact Us Today</b></h5>
 
-        <p className="mb-6">If you&apos;re ready to take the next step in growing your business in Australia, VJC Overseas is here to help. Contact us today for a consultation, and let us assist you in navigating the complex world of <b>Australian Business Immigration</b>.</p>
+        <p className="mb-6">If you’re ready to take the next step in growing your business in Australia, VJC Overseas is here to help. Contact us today for a consultation, and let us assist you in navigating the complex world of <b>Australian Business Immigration</b>.</p>
 
         <hr style={{ borderColor: 'black' }} className="mb-6" />
 

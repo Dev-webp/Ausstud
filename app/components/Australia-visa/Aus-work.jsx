@@ -1,5 +1,6 @@
 import React from "react";
-import Image from "next/image"
+// import Image from "next/image"
+
 
 const Auswork = () => {
     return (
@@ -17,11 +18,11 @@ const Auswork = () => {
         </h3>
         <br />
         <p className="m-2">
-          Are you considering expanding your career horizons by working in Australia? The <b>Australia Work Visa</b> offers a world of opportunities in a country renowned for its high quality of life, vibrant job market, and diverse landscapes. Whether you&apos;re seeking a temporary job, a skilled profession, or a long-term career in Australia, the right work visa can help you achieve your goals.
+          Are you considering expanding your career horizons by working in Australia? The <b>Australia Work Visa</b> offers a world of opportunities in a country renowned for its high quality of life, vibrant job market, and diverse landscapes. Whether you're seeking a temporary job, a skilled profession, or a long-term career in Australia, the right work visa can help you achieve your goals.
         </p>
         <div className="flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0">
           <div className="flex justify-center m-6 flex-shrink-0 mx-auto lg:mx-0">
-            <Image
+            <img
               src="/assets/Auswork.png"
               alt="Australia Work Visa"
              
@@ -146,7 +147,7 @@ const Auswork = () => {
           <h4 className="mb-6"><b>Ready to Take the Leap?</b></h4>
 
           <p className="mb-6">
-            Australia&apos;s booming job market awaits skilled professionals like you. Whether you&apos;re looking to work temporarily or make Australia your long-term home, the right visa can open doors to exciting career opportunities.
+            Australia’s booming job market awaits skilled professionals like you. Whether you're looking to work temporarily or make Australia your long-term home, the right visa can open doors to exciting career opportunities.
           </p>
 
           <p className="mb-6">

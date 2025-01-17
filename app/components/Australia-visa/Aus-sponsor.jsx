@@ -1,5 +1,6 @@
 import React from "react";
-import Image from 'next/image';  // Importing Image from next/image
+// import Image from 'next/image';
+
 
 const Aussponsor = () => {
     return (
@@ -22,7 +23,7 @@ const Aussponsor = () => {
 
             <div className="flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0">
                 <div className="flex justify-center m-6 flex-shrink-0 mx-auto lg:mx-0">
-                    <Image
+                    <img
                         src="/assets/Aussponsor.png"
                         alt="Australia Sponsorship Visa"
                         width={500} height={300}
@@ -36,7 +37,7 @@ const Aussponsor = () => {
                     What is an Australia Sponsorship Visa?
                 </h3>
                 <p>
-                    An <b>Australia Sponsorship Visa</b> is a visa type that allows foreign nationals to live and work in Australia with the support of an Australian employer, family member, or state/territory government. The sponsor acts as a guarantor, vouching for the applicant&rsquo;s skills, experience, and ability to contribute to the Australian economy and society.
+                    An <b>Australia Sponsorship Visa</b> is a visa type that allows foreign nationals to live and work in Australia with the support of an Australian employer, family member, or state/territory government. The sponsor acts as a guarantor, vouching for the applicant’s skills, experience, and ability to contribute to the Australian economy and society.
                 </p>
 
                 <p>
@@ -52,7 +53,7 @@ const Aussponsor = () => {
                 <h4 className="text-blue-800 italic mb-6">1. Skilled Worker Sponsorship Visa (Subclass 482)</h4>
 
                 <p className="mb-6">
-                    The <b>Subclass 482 Visa</b> (Temporary Skill Shortage Visa) is one of the most popular sponsorship visa categories. It allows employers to sponsor overseas workers to fill skill shortages in Australia. The visa is typically granted for up to four years, depending on the applicant&rsquo;s occupation and the sponsoring employer&rsquo;s needs. There are two main streams within this visa:
+                    The <b>Subclass 482 Visa</b> (Temporary Skill Shortage Visa) is one of the most popular sponsorship visa categories. It allows employers to sponsor overseas workers to fill skill shortages in Australia. The visa is typically granted for up to four years, depending on the applicant’s occupation and the sponsoring employer’s needs. There are two main streams within this visa:
                 </p>
 
                 <ul className="mb-6">
@@ -69,7 +70,7 @@ const Aussponsor = () => {
                 <h4 className="text-blue-800 italic mb-6">3. Regional Sponsored Migration Scheme (RSMS) Visa (Subclass 187)</h4>
 
                 <p className="mb-6">
-                    The RSMS visa allows skilled workers to work in regional areas of Australia. As part of Australia&apos;s initiative to support the development of regional areas, this visa provides a pathway for skilled workers to live and work in designated regional areas and, in some cases, leads to permanent residency.
+                    The RSMS visa allows skilled workers to work in regional areas of Australia. As part of Australia's initiative to support the development of regional areas, this visa provides a pathway for skilled workers to live and work in designated regional areas and, in some cases, leads to permanent residency.
                 </p>
 
                 <h4 className="text-blue-800 italic mt-6">4. Family Sponsorship Visas</h4>
@@ -83,9 +84,9 @@ const Aussponsor = () => {
 
                     <ul className="ml-4 mb-6">
                         <li><b>• Work in Australia:</b> With a sponsorship visa, you can take up employment opportunities that are specifically aligned with your skills and experience. You may even be able to transition to permanent residency in the future.</li>
-                        <li><b>• Pathway to Permanent Residency:</b> Many sponsorship visas offer a direct path to permanent residency, providing greater security and long-term benefits, such as access to Australia&rsquo;s healthcare and education systems.</li>
-                        <li><b>• Opportunity to Live in Australia:</b> Australia&rsquo;s high quality of life, stable economy, and diverse culture make it an attractive destination for expatriates. Sponsorship visas allow you to live and experience life in Australia while contributing to the workforce and economy.</li>
-                        <li><b>• Access to Healthcare and Social Services:</b> Holders of most sponsorship visas are eligible for Medicare, Australia&rsquo;s public healthcare system, as well as other social services.</li>
+                        <li><b>• Pathway to Permanent Residency:</b> Many sponsorship visas offer a direct path to permanent residency, providing greater security and long-term benefits, such as access to Australia’s healthcare and education systems.</li>
+                        <li><b>• Opportunity to Live in Australia:</b> Australia’s high quality of life, stable economy, and diverse culture make it an attractive destination for expatriates. Sponsorship visas allow you to live and experience life in Australia while contributing to the workforce and economy.</li>
+                        <li><b>• Access to Healthcare and Social Services:</b> Holders of most sponsorship visas are eligible for Medicare, Australia’s public healthcare system, as well as other social services.</li>
                         <li><b>• Support for Families:</b> Sponsorship visas often allow you to bring your family members along to live and work in Australia, fostering a more supportive and flexible immigration process.</li>
                     </ul>
 
