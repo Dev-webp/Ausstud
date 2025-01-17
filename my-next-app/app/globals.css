@@ -1,11 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Geist&family=Geist+Mono&display=swap');
+
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
+
+body {
+  font-family: 'Geist', sans-serif; /* Default font */
+}
+
+code {
+  font-family: 'Geist Mono', monospace; /* For monospaced text */
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
