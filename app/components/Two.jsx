@@ -67,7 +67,6 @@ const countriesData = {
         "Australia Work Visa",
         "Australia Family Visa",
         "Australia Dependent Visa",
-        "Australia Work Visa",
         "Australia Sponsorship Visa"
       ]
     },

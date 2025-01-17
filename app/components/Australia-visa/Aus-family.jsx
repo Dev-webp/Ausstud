@@ -25,13 +25,12 @@ const Ausfamily = () => {
         At <strong>VJC Overseas</strong>, we understand the emotional and practical challenges of being separated from your loved ones. Our expert migration consultants are here to guide you through the process, ensuring that your family reunification journey is as smooth and efficient as possible. Let’s take a closer look at the different types of Australia Family Visas available and how they can help bring your family together.
       </p>
 
-      <div className="flex flex-col lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0">
-        <div className="flex justify-center m-6 flex-shrink-0 mx-auto lg:mx-0">
+      <div className="flex-col justify-center lg:flex-row items-start h-auto lg:space-x-6 space-y-4 lg:space-y-0">
+        <div className="flex  justify-center m-6 flex-shrink-0 mx-auto lg:mx-0">
           <img
             src="/assets/Ausfamily.png"
-            alt="Family Visa Image"
-            
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-full lg:h-70 object-contain shadow-lg rounded-lg"
+            alt="Image description" 
+            className="w-full text-center max-w-xs sm:max-w-sm md:max-w-md lg:w-full lg:h-70 object-contain shadow-lg rounded-lg"
           />
         </div>
       </div>
