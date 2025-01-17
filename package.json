@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/geist": "^5.0.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.11",
     "next": "^14.2.23",

@@ -1,6 +1,8 @@
 @import "./base.css";
 @tailwind components;
 @tailwind utilities;
+@import "~@fontsource/geist";
+
 
 
 /* Add this CSS in your global styles or a module CSS file */
